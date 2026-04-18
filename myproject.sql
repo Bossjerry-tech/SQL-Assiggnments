@@ -137,7 +137,7 @@ SELECT
     u.user_id,
     u.full_name,
     u.email,
-    u.region,
+    u.region
 
     -- Engagement summary
     COUNT(DISTINCT s.session_id) AS total_sessions,
